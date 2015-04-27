@@ -12,7 +12,6 @@ Creates pretty printed bbcode for games.
 Options:
   -h --help
   -v --version
-
   --list-platforms                     List supported consoles.
   -f FORMAT --format=FORMAT            Game format.
   -l LANGUAGE --language=LANGUAGE      Game Language. Default is English.
@@ -111,10 +110,6 @@ CONSOLE_TO_EMULATOR_MAP = {
     'DOS': _info('DOSBox',
                  'http://www.dosbox.com/download.php?main=1',
                  2)}
-
-
-def upload_from_url(url):
-    return url
 
 
 class GameNotFoundError(Exception):
